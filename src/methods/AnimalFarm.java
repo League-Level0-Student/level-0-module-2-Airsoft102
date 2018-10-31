@@ -22,13 +22,19 @@ public class AnimalFarm {
 	
 if(animal.equals("llama")){
 	playNoise(llamaFile);
-	
+}
 	if(animal.equals("cat")) {
 	playNoise(meowFile);
 	}
+if (animal.equals("cow")) {
+	playNoise(mooFile);
 }
-	
-	
+	if (animal.equals("duck")) {
+		playNoise(quackFile);
+	}
+	if (animal.equals("dog")) {
+		playNoise(woofFile);
+	}
 	
 		
 	}
